@@ -4,7 +4,6 @@ from fastapi import APIRouter, Depends, HTTPException
 from pydantic import BaseModel
 from sqlalchemy.orm import Session
 from starlette import status
-from starlette.status import HTTP_200_OK
 
 from database import SessionLocal
 from models import Users

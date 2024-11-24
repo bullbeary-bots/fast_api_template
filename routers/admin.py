@@ -17,8 +17,8 @@ def get_db():
 
 
 router = APIRouter(
-    prefix="/auth",
-    tags=["auth"]
+    prefix="/admin",
+    tags=["admin"]
 )
 
 db_dependency = Annotated[Session, Depends(get_db)]
